@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+        
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                NavigationLink(destination: SheetSample()) {
+                    Text("Sheet")
+                }
+                NavigationLink(destination: AlertSample()) {
+                    Text("Alert")
+                }
+                NavigationLink(destination: ActionSheetSample()) {
+                    Text("ActionSheet")
+                }
+                NavigationLink(destination: ContextMenuSample()) {
+                    Text("ContextMenu")
+                }
+            }
+            .navigationBarTitle("SwiftUI-Cheatsheet")
+        }
     }
 }
 
