@@ -76,6 +76,7 @@
 		8D03916523646E6000A704FD /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D03912E23646E6000A704FD /* LottieLogo1_masked.json */; };
 		8D03916623646E6000A704FD /* timeremap.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D03912F23646E6000A704FD /* timeremap.json */; };
 		8D03916823646F1000A704FD /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03916723646F1000A704FD /* ActivityIndicatorView.swift */; };
+		8D03916A236476E000A704FD /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D039169236476E000A704FD /* ActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		8D03912E23646E6000A704FD /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
 		8D03912F23646E6000A704FD /* timeremap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeremap.json; sourceTree = "<group>"; };
 		8D03916723646F1000A704FD /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		8D039169236476E000A704FD /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				8D0390542363F90000A704FD /* AppDelegate.swift */,
 				8D0390562363F90000A704FD /* SceneDelegate.swift */,
 				8D0390582363F90000A704FD /* ContentView.swift */,
+				8D03916B236476F500A704FD /* UIViewControllerRepresentable */,
 				8D0390EE2364236100A704FD /* UIViewRepresentable */,
 				8D0390722364011A00A704FD /* PresentationView */,
 				8D0390F623646E1D00A704FD /* Resource */,
@@ -301,6 +304,14 @@
 				8D03911B23646E6000A704FD /* B.json */,
 			);
 			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		8D03916B236476F500A704FD /* UIViewControllerRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				8D039169236476E000A704FD /* ActivityViewController.swift */,
+			);
+			path = UIViewControllerRepresentable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,6 +450,7 @@
 				8D0390712363FD5700A704FD /* AlertSample.swift in Sources */,
 				8D0390F02364238800A704FD /* BlurView.swift in Sources */,
 				8D03906F2363F9EE00A704FD /* ContextMenuSample.swift in Sources */,
+				8D03916A236476E000A704FD /* ActivityViewController.swift in Sources */,
 				8D0390742364019D00A704FD /* SheetSample.swift in Sources */,
 				8D0390552363F90000A704FD /* AppDelegate.swift in Sources */,
 				8D0390572363F90000A704FD /* SceneDelegate.swift in Sources */,
