@@ -75,6 +75,7 @@
 		8D03916423646E6000A704FD /* DisableNodesTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D03912D23646E6000A704FD /* DisableNodesTest.json */; };
 		8D03916523646E6000A704FD /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D03912E23646E6000A704FD /* LottieLogo1_masked.json */; };
 		8D03916623646E6000A704FD /* timeremap.json in Resources */ = {isa = PBXBuildFile; fileRef = 8D03912F23646E6000A704FD /* timeremap.json */; };
+		8D03916823646F1000A704FD /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03916723646F1000A704FD /* ActivityIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +148,7 @@
 		8D03912D23646E6000A704FD /* DisableNodesTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DisableNodesTest.json; sourceTree = "<group>"; };
 		8D03912E23646E6000A704FD /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
 		8D03912F23646E6000A704FD /* timeremap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeremap.json; sourceTree = "<group>"; };
+		8D03916723646F1000A704FD /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				8D0390EF2364238800A704FD /* BlurView.swift */,
+				8D03916723646F1000A704FD /* ActivityIndicatorView.swift */,
 			);
 			path = UIViewRepresentable;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				8D0390742364019D00A704FD /* SheetSample.swift in Sources */,
 				8D0390552363F90000A704FD /* AppDelegate.swift in Sources */,
 				8D0390572363F90000A704FD /* SceneDelegate.swift in Sources */,
+				8D03916823646F1000A704FD /* ActivityIndicatorView.swift in Sources */,
 				8D0390592363F90000A704FD /* ContentView.swift in Sources */,
 				8D03906D2363F9B500A704FD /* ActionSheetSample.swift in Sources */,
 			);
